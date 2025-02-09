@@ -1,5 +1,5 @@
 {
-  "name": "ass43",
+  "name": "ass44",
   "version": "1.0.0",
   "description": " this is my first ReactJS project",
   "main": "index.js",
@@ -9,10 +9,11 @@
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "ass43": "file:",
+    "ass44": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1",
-    "tt": "file:"
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
