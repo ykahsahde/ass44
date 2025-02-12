@@ -23,8 +23,8 @@ import toast ,{Toaster} from 'react-hot-toast';
     }
   },[scoreA,scoreB]);
    return (
-     <div className='bg-blue-100 min-h-screen p-10'>
-       <h1 className='text-center text-3xl md:text-5xl py-4 md:py-10 border-2 border-blue-400 border-dotted rounded-md text-blue-500 bg-blue-200'>Score Keeper</h1>
+     <div className='bg-amber-100 min-h-screen p-10'>
+       <h1 className='text-center text-3xl md:text-5xl py-4 md:py-10 border-8 border-amber-400 border-double rounded-md text-amber-500 bg-amber-200'>Score Keeper</h1>
        
        <div className='flex flex-col md:flex-row justify-around'>
          <Scorecard score={scoreA} increaseScore={()=>setScoreA(scoreA+1)} decreaseScore={()=>setScoreA(scoreA-1)} teamName="Team A" winner={winner}/>
@@ -34,7 +34,7 @@ import toast ,{Toaster} from 'react-hot-toast';
        {winner?<p className='text-center md:text-2xl py-5'>Winner team is <b className='underline decoration-wavy mx-4 bg-yellow-400'>{winner}🏆🏆🏆🏆</b>.Click reset to start again</p>:null}
        
        <div className='flex justify-center'>  
-         <button className=' bg-blue-500 px-10 py-3 text-5xl text-white rounded-lg shadow-lg' 
+         <button className=' bg-amber-500 px-10 py-3 text-5xl text-white rounded-lg shadow-lg' 
            onClick={()=>{
             setScoreA(0);
             setScoreB(0);
