@@ -4,6 +4,7 @@
     return(
         <>
         <Navbar />
+        <h1>spot</h1>   
         </>
       );      
  }

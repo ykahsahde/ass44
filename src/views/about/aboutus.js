@@ -3,6 +3,7 @@ import Navbar from './../../components/navbar/navbar.js';
     return(
         <>
         <Navbar />
+        <h1>aboutus</h1>  
         </>
       );       
  }

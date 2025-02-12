@@ -1,19 +1,21 @@
 {
-  "name": "ass44",
+  "name": "score_keeper",
   "version": "1.0.0",
   "description": " this is my first ReactJS project",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "ass43": "file:",
-    "ass44": "file:",
+    "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
     "react-router-dom": "^7.1.5",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "score_keeper": "file:"
   },
   "browserslist": {
     "production": [
